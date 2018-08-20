@@ -33,14 +33,14 @@
             <div class="container">
                 <div class="row">
                     <nav class="col navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand col-2" href="#">
                             <img src="../images/logo45.png" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav col justify-content-around">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Комнаты и цены</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -65,11 +65,11 @@
                             </ul>
                         </div>
                         <div class="header-phone-box d-flex justify-content-between">
-                            <div class="info-box d-flex flex-column">
+                            <div class="info-box padr-5 d-flex flex-column">
                                 <a class="mail" href="mailTo:hostelfusion@mail.ru">hostelfusion@mail.ru</a>
                                 <a class="phone" href="tel:+74991166296">+7 (499) 116-62-96</a>
                             </div>
-                            <div class="info-box">
+                            <div class="info-box red-separator">
                                 <span>Напишите нам</span>
                                 <div class="w-100"></div>
                                 <a class="phone name-soc viber" href="viber://chat?number=79092332590">Viber</a>
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                     <div class="service-block">
-                        <div class="row d-flex justify-content-between">
+                        <div class="row d-none d-md-flex justify-content-between">
                             <div class="service-box d-flex flex-column align-items-center justify-content-start">
                                 <div class="service-img">
                                     <img src="../images/icon3.png" />
@@ -165,16 +165,16 @@
                 <h2 class="text-center">КОМНАТЫ И ЦЕНЫ</h2>
 
             </div>
-            <div class="row">
-                <div class="img-wrapper col-2">
+            <div class="row flex-md-row flex-column justify-content-center align-items-center">
+                <div class="img-wrapper col-12 col-md-2">
                     <img src="../images/circ-wom.png" alt="">
-                    <p class="text-center">9 номеров</p>
+                    <p class="text-center rooms-count">9 номеров</p>
                 </div>
-                <div class="col-10 col-sm-8 col-md-8 col-lg-7">
-                    <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="row justify-content-center justify-content-md-start">
                         <h3 class="hostel-label">ХОСТЕЛ НА ПРОСПЕКТЕ МИРА</h3>
                     </div>
-                    <div class="col d-flex align-items-center justify-content-between">
+                    <div class="col d-flex flex-column flex-lg-row align-items-center justify-content-between justify-content-md-start align-items-md-start">
                         <div class="grp">
                             <img src="../images/phone.png" alt="phone">
                             <span>+7 (499) 116 62 96</span>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="row">
+                        <div class="row justify-content-center justify-content-md-start">
                             <a role="button" class="dotted-underline">
                                 <img class="adress-img" src="../images/adress-header.png">
                                 г. Москва, Банный проезд, д. 3с1 
@@ -193,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-sm-block col">
+                <div class="d-none d-sm-block col-12 col-md-3 col-lg">
                     <div class="price-wrapper">
                         <p class="price-banner">ЦЕНЫ: ОТ</p>
                         <p class="price-banner">
@@ -203,10 +203,10 @@
                 </div>
             </div>
             <div class="column">
-                <div class="col-10 offset-2 p-0">
+                <div class="col-12 col-md-10 offset-md-2 p-0">
                     <h4 class="text-left">Быстрое бронирование</h4>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-1.jpg">
                             </a>
@@ -220,7 +220,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-2.jpg">
                             </a>
@@ -235,8 +235,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-3.jpg">
                             </a>
@@ -250,7 +250,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-4.jpg">
                             </a>
@@ -265,8 +265,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-5.jpg">
                             </a>
@@ -280,7 +280,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-6.jpg">
                             </a>
@@ -295,8 +295,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-7.jpg">
                             </a>
@@ -310,7 +310,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-8.jpg">
                             </a>
@@ -325,8 +325,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-9.jpg">
                             </a>
@@ -340,7 +340,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-10.jpg">
                             </a>
@@ -355,7 +355,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 d-flex p-0 room-wrapper">
+                    <div class="col-12 col-lg-6 d-flex p-0 room-wrapper">
                         <div class="col-12 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pm-mini-11.jpg">
@@ -372,18 +372,18 @@
                         </div>
                     </div>
                 </div>
-                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться,  актуальные цены уточняйте у администратора</h4>
+                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться, актуальные цены уточняйте у администратора</h4>
             </div>
-            <div class="row">
-                <div class="img-wrapper col-2">
+            <div class="row flex-md-row flex-column justify-content-center align-items-center">
+                <div class="img-wrapper col-12 col-md-2">
                     <img src="../images/circ-room.png" alt="">
-                    <p class="text-center">7 номеров</p>
+                    <p class="text-center rooms-count">7 номеров</p>
                 </div>
-                <div class="col-10 col-sm-8 col-md-8 col-lg-7">
-                    <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="row justify-content-center justify-content-md-start">
                         <h3 class="hostel-label">ХОСТЕЛ НА ПАВЕЛЕЦКОЙ</h3>
                     </div>
-                    <div class="col d-flex align-items-center justify-content-between">
+                    <div class="col d-flex flex-column flex-lg-row align-items-center justify-content-between justify-content-md-start align-items-md-start">
                         <div class="grp">
                             <img src="../images/phone.png" alt="phone">
                             <span>+7 (499) 116 62 96</span>
@@ -394,7 +394,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="row">
+                        <div class="row justify-content-center justify-content-md-start">
                             <a role="button" class="dotted-underline">
                                 <img class="adress-img" src="../images/adress-header.png">
                                 г. Москва, Дубининская улица, д. 67, корп. 1 
@@ -402,7 +402,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-sm-block col">
+                <div class="d-none d-sm-block col-12 col-md-3 col-lg">
                     <div class="price-wrapper">
                         <p class="price-banner">ЦЕНЫ: ОТ</p>
                         <p class="price-banner">
@@ -412,10 +412,10 @@
                 </div>
             </div>
             <div class="column">
-                <div class="col-10 offset-2 p-0">
+                <div class="col-12 col-md-10 offset-md-2 p-0">
                     <h4 class="text-left">Быстрое бронирование</h4>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-1.jpg">
                             </a>
@@ -429,7 +429,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-2.jpg">
                             </a>
@@ -444,8 +444,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-3.jpg">
                             </a>
@@ -459,7 +459,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-4.jpg">
                             </a>
@@ -474,8 +474,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-5.jpg">
                             </a>
@@ -489,7 +489,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-6.jpg">
                             </a>
@@ -504,8 +504,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex p-0 room-wrapper">
-                        <div class="col-6 p-0 d-flex room-card">
+                    <div class="col-12 d-flex flex-column flex-lg-row p-0 room-wrapper">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-7.jpg">
                             </a>
@@ -519,7 +519,7 @@
                                 <button class="btn red-btn btn-order">Забронировать</button>
                             </div>
                         </div>
-                        <div class="col-6 p-0 d-flex room-card">
+                        <div class="col-12 col-lg-6 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../uploads/2018/05/pav-mini-8.jpg">
                             </a>
@@ -535,18 +535,18 @@
                         </div>
                     </div>
                 </div>
-                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться,  актуальные цены уточняйте у администратора</h4>
+                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться, актуальные цены уточняйте у администратора</h4>
             </div>
-            <div class="row">
-                <div class="img-wrapper col-2">
+            <div class="row flex-md-row flex-column justify-content-center align-items-center">
+                <div class="img-wrapper col-12 col-md-2">
                     <img src="/images/kolomenskaya.png" alt="">
-                    <p class="text-center">7 фото</p>
+                    <p class="text-center rooms-count">7 фото</p>
                 </div>
-                <div class="col-10 col-sm-8 col-md-8 col-lg-7">
-                    <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="row justify-content-center justify-content-md-start">
                         <h3 class="hostel-label">АПАРТАМЕНТЫ НА КОЛОМЕНСКОЙ</h3>
                     </div>
-                    <div class="col d-flex align-items-center justify-content-between">
+                    <div class="col d-flex flex-column flex-lg-row align-items-center justify-content-between justify-content-md-start align-items-md-start">
                         <div class="grp">
                             <img src="../images/phone.png" alt="phone">
                             <span>+7 (499) 116 62 96</span>
@@ -557,7 +557,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="row">
+                        <div class="row justify-content-center justify-content-md-start">
                             <a role="button" class="dotted-underline">
                                 <img class="adress-img" src="../images/adress-header.png">
                                 г. Москва, Проспект Андропова, д. 44, корп. 2
@@ -565,7 +565,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-sm-block col">
+                <div class="d-none d-sm-block col-12 col-md-3 col-lg">
                     <div class="price-wrapper">
                         <p class="price-banner">ЦЕНЫ: ОТ</p>
                         <p class="price-banner">
@@ -575,9 +575,9 @@
                 </div>
             </div>
             <div class="column">
-                <div class="col-10 offset-2 p-0">
+                <div class="col-12 col-md-10 offset-md-2 p-0">
                     <h4 class="text-left">Быстрое бронирование</h4>
-                    <div class="col-6 d-flex p-0 room-wrapper">
+                    <div class="col-12 col-lg-6 d-flex p-0 room-wrapper">
                         <div class="col-12 p-0 d-flex room-card">
                             <a href="#">
                                 <img src="../images/room-min-9.png">
@@ -594,10 +594,139 @@
                         </div>
                     </div>
                 </div>
-                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться,  актуальные цены уточняйте у администратора</h4>
+                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться, актуальные цены уточняйте у администратора</h4>
             </div>
         </div>
     </div>
+    <div class="third-screen">
+        <div class="container">
+            <div class="row">
+                <div class="bullit-block col-12 d-flex flex-column flex-md-row justify-content-between">
+                    <div class="bullit-box d-flex flex-column justify-content-center">
+                        <div class="image-box">
+                            <img src="../images/3-header.png" style="opacity: 1;">
+                        </div>
+                        <p class="title-box red">
+                            Экскурсионное<br>обслуживание
+                        </p>
+                        <p class="desc-box">
+                            Для наших любимых
+                            <br>гостей
+                        </p>
+                    </div>
+                    <div class="bullit-box d-flex flex-column justify-content-center">
+                        <div class="image-box">
+                            <img src="../images/icon7.png" style="opacity: 1;">
+                        </div>
+                        <p class="title-box red">
+                            Визовая<br>поддержка
+                        </p>
+                        <p class="desc-box">
+                            Поможем в получении<br>визы
+                        </p>
+                    </div>
+                    <div class="bullit-box d-flex flex-column justify-content-center">
+                        <div class="image-box">
+                            <img src="../images/icon5.png" style="opacity: 1;">
+                        </div>
+                        <p class="title-box red">
+                            Большая общая<br>зона
+                        </p>
+                        <p class="desc-box">
+                            С комфортными диванами<br> и уютными столиками
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="fourth-screen">
+        <div class="container">
+            <div class="column relative">
+                <h3 class="reviews-title text-center">Отзывы</h3>
+                <div class="reviews-controls">
+                    <i class="icon-angle-left flex-prev"></i>
+                    <i class="icon-angle-right flex-next"></i>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="review">
+                                    <p class="review-descr text-center">Комфортный и чистый хостел с удобным расположением. Удачный вариант для тех, кто вылетает из Домодедово &#8212; до аэроэкспресса рукой подать. Кроме того, есть быстрый WiFi, для меня это важно.</p>
+                                    <p class="review-author text-center">Андрей, деловая поездка</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review">
+                                    <p class="review-descr text-center">Хороший недорогой хостел с приятными ценами. Отдыхали с подругой в комнате для женщин, очень понравилось. Рекомендуем всем гостям столицы, особенно если бюджет небольшой. Заедем еще, если будем в Москве!</p>
+                                    <p class="review-author text-center">Полина, турист</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review">
+                                    <p class="review-descr text-center">Отличный хостел, есть все необходимое. Не кормят разве что, но рядом хватает кафе с магазинами. А еще мне понравился общительный и доброжелательный персонал – девушки рассказали, как добраться до метро, и что интересного есть рядом. Осмотреть успел не все, так что еще вернусь)</p>
+                                    <p class="review-author text-center">Максим, турист</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row flex-column flex-md-row">
+                <div class="col-12 col-md-3">
+                    <h4 class="footer-heading">Забронируйте сейчас</h4>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
+                            <a href="tel:+74991166878">+7 (499) 116-68-78</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>
+                            <span style="cursor: pointer">Написать сообщение</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <h4 class="footer-heading">Последние новости</h4>
+                    <div class="textwidget">
+                        <p>
+                            <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
+                            <a href="tel:+74991166878">+7 (499) 116-68-78</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>
+                            <span style="cursor: pointer">Написать сообщение</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4 class="footer-heading">Мы в соцсетях</h4>
+                    <div class="textwidget">
+                        <a href="https://m.facebook.com/fusionhostel/" target="_blank">
+                            <i class="fa fa-facebook" style="color: #f7f7f7; font-size: 28px; "></i>
+                        </a>
+                        <a href="https://vk.com/hostelfusion" target="_blank">
+                            <i class="fa fa-vk" style="color: #f7f7f7; font-size: 28px; "></i>
+                        </a>
+                        <a href="https://www.instagram.com/hostelfusion/" target="_blank">
+                            <i class="fa fa-instagram" style="color: #f7f7f7; font-size: 28px; "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
     <script src="js/scripts.min.js"></script>
 
 </body>

@@ -49,6 +49,10 @@ h1,p,a,span
 a
     &:hover
         color: #fff
+i
+    &:before    
+        font-family: fontAwesome
+        font-style: normal
     
 .red
     color: #ef4b51
@@ -62,12 +66,34 @@ header
     .navbar
         padding-top: 0
         padding-bottom: 0
+        .nav-link
+            font-family: OpenSansSemiBold
+        .dropdown-menu
+            background: #00000085
+            .dropdown-item
+                color: #fff
+                &:hover
+                    background-color: #f5f5f51c
         
-        
+    .info-box
+        a, span
+            font-size: 16px
+            font-weight: 700
+            font-family: OpenSansSemiBold
+    .red-separator
+        padding-left: 5px
+        margin-left: 2px
+        border-left: 1px solid #ff4c52
+    .padr-5
+        padding-right: 5px
 .viber
     color: #a866e9
+    &:hover
+        color: #a866e9
 .whatsapp
-     color: #49ab08
+    color: #49ab08
+    &:hover
+        color: #49ab08
 .service-img
     margin-bottom: 20px
         
@@ -150,12 +176,24 @@ header
         font-family: OpenSansSemibold
         color: #f74f54!important
         font-size: 16px
-        margin-left: 8px
         border-bottom: 3px dotted #f74f54
+    .rooms-count
+        color: #272625
+        font-weight: 500
+        font-family: Open Sans
+        margin-bottom: 0px
+        font-size: 16px
+        margin-top: 8px
+    .img-wrapper
+        img
+            border-radius: 50%
+            max-width: 100%
+            width: auto
+            height: auto
 .room-wrapper
-    border: 1px solid #e5e5e5
     margin-bottom: 20px
 .room-card
+    border: 1px solid #e5e5e5
     p, .room-link
         color: #000
         text-align: left
@@ -178,5 +216,106 @@ header
         font-size: 16px
         font-weight: 400
         text-align: center
-
+.third-screen
+    padding: 100px 0
+    background: url('../uploads/2015/03/hostel-service-bg.jpg')
+.bullit-box
+    text-align: center
+    .title-box 
+        font-family: "Open Sans"
+        color: #ff4c52
+        font-size: 18px
+        font-weight: 700
+        line-height: 20px
+        margin-bottom: 20px
+        margin-top: 25px
+    .desc-box 
+        font-family: "Open Sans"
+        color: #fefefe
+        font-size: 16px
+        font-weight: 400
+        line-height: 20px
+.fourth-screen
+    .relative
+        position: relative
+    background-color: #1abc9c
+    padding-top: 80px
+    padding-bottom: 45px
+    h3
+        color: #fff
+        text-transform: uppercase
+        letter-spacing: 3px
+        font-family: OpenSansBold
+        font-size: 48px
+        &:after
+            content: ''
+            background-color: #fff
+            width: 87px
+            height: 9px
+            display: block
+            margin: 0 auto
+            margin-top: 25px
+  
+.reviews-controls
+    position: absolute
+    right: 0
+    top: 10%
+    i
+        color: #fff
+        font-size: 20px
+        margin: 25px
+        &:hover
+            cursor: pointer
+    
+.icon-angle-left
+    &:before 
+        content: "\f104"
+.icon-angle-right
+    &:before
+        content: "\f105"
+        
+.review
+    p
+        font-family: Open Sans
+        font-size: 16px
+        margin-bottom: 20px
+    .review-author
+        margin-top: 15px
+        font-size: 17px
+        font-style: italic
+        letter-spacing: 1px
+        &:before
+            display: block
+            font-family: FontAwesome
+            content: "\f0dd"
+            font-size: 13px
+            margin-bottom: 9px
+    
+footer
+    padding: 70px 0
+    background: #1e1e1e
+    h4
+        color: #fff
+        margin-bottom: 35px
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    i
+        margin-right: 10px
+    .fa-phone
+        &:before
+            content: "\f095"
+    .fa-envelope-o
+        &:before
+            content: "\f003"
+    .fa-facebook
+        &:before
+            content: "\f09a"
+    .fa-vk
+        &:before
+            content: "\f189"
+    .fa-instagram
+        &:before     
+            content: "\f16d"
 @import "media" // Always at the end
