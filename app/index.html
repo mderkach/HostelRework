@@ -22,7 +22,7 @@
     <!-- Custom Browsers Color Start -->
     <meta name="theme-color" content="#000">
     <!-- Custom Browsers Color End -->
-
+    <link rel='stylesheet' id='Open-Sans-google-font-css' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=greek%2Ccyrillic-ext%2Ccyrillic%2Clatin%2Clatin-ext%2Cvietnamese%2Cgreek-ext' type='text/css' media='all' />
     <link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -32,7 +32,7 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="col navbar navbar-expand-lg">
                         <a class="navbar-brand" href="#">
                             <img src="../images/logo45.png" alt="">
                         </a>
@@ -64,18 +64,19 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="header-phone-box d-flex justify-content-between">
+                            <div class="info-box d-flex flex-column">
+                                <a class="mail" href="mailTo:hostelfusion@mail.ru">hostelfusion@mail.ru</a>
+                                <a class="phone" href="tel:+74991166296">+7 (499) 116-62-96</a>
+                            </div>
+                            <div class="info-box">
+                                <span>Напишите нам</span>
+                                <div class="w-100"></div>
+                                <a class="phone name-soc viber" href="viber://chat?number=79092332590">Viber</a>
+                                <a class="phone name-soc whatsapp" href="https://api.whatsapp.com/send?phone=89629809926">WhatsApp</a>
+                            </div>
+                        </div>
                     </nav>
-                    <div class="header-phone-box">
-                        <div class="info-box">
-                            <a class="mail" href="mailTo:hostelfusion@mail.ru">hostelfusion@mail.ru</a>
-                            <a class="phone" href="tel:+74991166296">+7 (499) 116-62-96</a>
-                        </div>
-                        <div class="info-box">
-                            <span>Напишите нам</span><br>
-                            <a class="phone name-soc viber" href="viber://chat?number=79092332590">Viber</a>
-                            <a class="phone name-soc" href="https://api.whatsapp.com/send?phone=89629809926">WhatsApp</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </header>
@@ -86,18 +87,18 @@
                         <h1 class="text-center">
                             СЕТЬ ХОСТЕЛОВ В МОСКВЕ
                         </h1>
-                        <div class="desc-section text-center">
+                        <p class="desc-section text-center">
                             от 500 руб. сутки
-                        </div>
-                        <div class="desc-section text-center">
+                        </p>
+                        <p class="desc-section text-center">
                             Для студентов - 370 руб. сутки
-                        </div>
+                        </p>
                         <div class="col d-flex justify-content-center adresses-wrapper">
-                            <div class="col d-flex align-items-center justify-content-end">
+                            <div class="col-4 d-flex align-items-center justify-content-end">
                                 <img class="checkmark" src="../images/adress-header.png">
                                 <a href="#" class="address-on-main-left">Хостел на<br> Павелецкой</a>
                             </div>
-                            <div class="col d-flex align-items-center justify-content-start">
+                            <div class="col-4 offset-2 d-flex align-items-center justify-content-start">
                                 <img class="checkmark" src="../images/adress-header.png">
                                 <a href="#" class="address-on-main-right">Хостел на Проспекте<br> мира</a>
                             </div>
@@ -105,7 +106,7 @@
                     </div>
                     <div class="service-block">
                         <div class="row d-flex justify-content-between">
-                            <div class="service-box">
+                            <div class="service-box d-flex flex-column align-items-center justify-content-start">
                                 <div class="service-img">
                                     <img src="../images/icon3.png" />
                                 </div>
@@ -113,7 +114,7 @@
                                     Wi-Fi
                                 </p>
                             </div>
-                            <div class="service-box">
+                            <div class="service-box d-flex flex-column align-items-center justify-content-start">
                                 <div class="service-img">
                                     <img src="../images/1-header.png" />
                                 </div>
@@ -121,7 +122,7 @@
                                     Стойка регистрации <br>24/7
                                 </p>
                             </div>
-                            <div class="service-box">
+                            <div class="service-box d-flex flex-column align-items-center justify-content-start">
                                 <div class="service-img">
                                     <img src="../images/2-header.png" />
                                 </div>
@@ -129,7 +130,7 @@
                                     Чисто <br>и уютно
                                 </p>
                             </div>
-                            <div class="service-box">
+                            <div class="service-box d-flex flex-column align-items-center justify-content-start">
                                 <div class="service-img">
                                     <img src="../images/5-header.png" />
                                 </div>
@@ -137,7 +138,7 @@
                                     Кофе и чай <br> с вареньем
                                 </p>
                             </div>
-                            <div class="service-box">
+                            <div class="service-box d-flex flex-column align-items-center justify-content-start">
                                 <div class="service-img">
                                     <img src="../images/4-header.png" />
                                 </div>
@@ -147,15 +148,13 @@
                             </div>
                         </div>
                     </div>
-                    <section class="btn-wrapper">
+                    <div class="btn-wrapper">
                         <div class="row d-flex justify-content-center">
                             <div class="button-block">
-                                <div class="button-box red">
-                                    <a href="#" class="">Оставить заявку</a>
-                                </div>
+                                <button class="btn btn-red btn-order">Оставить заявку</button>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </section>
@@ -173,7 +172,7 @@
                 </div>
                 <div class="col-10 col-sm-8 col-md-8 col-lg-7">
                     <div class="row">
-                        <h2 class="hostel-label">ХОСТЕЛ НА ПРОСПЕКТЕ МИРА</h2>
+                        <h3 class="hostel-label">ХОСТЕЛ НА ПРОСПЕКТЕ МИРА</h3>
                     </div>
                     <div class="col d-flex align-items-center justify-content-between">
                         <div class="grp">
@@ -187,7 +186,7 @@
                     </div>
                     <div class="col">
                         <div class="row">
-                            <a role="button dotted-underline">
+                            <a role="button" class="dotted-underline">
                                 <img class="adress-img" src="../images/adress-header.png">
                                 г. Москва, Банный проезд, д. 3с1 
                             </a>
@@ -198,18 +197,404 @@
                     <div class="price-wrapper">
                         <p class="price-banner">ЦЕНЫ: ОТ</p>
                         <p class="price-banner">
-                            <span class="reddy">500</span> РУБ.
+                            <span class="red">500</span> РУБ.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="column">
                 <div class="col-10 offset-2 p-0">
-                    <h3 class="text-left">Быстрое бронирование</h3>
-                    <div class="col-6 card-room">
-                        
+                    <h4 class="text-left">Быстрое бронирование</h4>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-1.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Общий номер на 6 человек</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>650</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-2.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Общий номер на 8 человек (мужской)</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>550</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-3.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Общий номер на 8 человек (женский)</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>550</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-4.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Общий номер на 10 человек</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>500</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-5.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухместный номер с одной двуспальной кроватью</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2200</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-6.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухместный номер с раздельными кроватями</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>1900</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-7.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Трехместный номер</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>1800</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-8.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухместный номер с душем</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2800</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-9.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухкомнатный номер с ТВ</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2500</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-10.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Место в двухместном номере</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>999</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex p-0 room-wrapper">
+                        <div class="col-12 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pm-mini-11.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Семейный номер</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2500</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться,  актуальные цены уточняйте у администратора</h4>
+            </div>
+            <div class="row">
+                <div class="img-wrapper col-2">
+                    <img src="../images/circ-room.png" alt="">
+                    <p class="text-center">7 номеров</p>
+                </div>
+                <div class="col-10 col-sm-8 col-md-8 col-lg-7">
+                    <div class="row">
+                        <h3 class="hostel-label">ХОСТЕЛ НА ПАВЕЛЕЦКОЙ</h3>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-between">
+                        <div class="grp">
+                            <img src="../images/phone.png" alt="phone">
+                            <span>+7 (499) 116 62 96</span>
+                        </div>
+                        <div class="grp">
+                            <img src="../images/metro-gray.png" alt="metro">
+                            <span>12 мин. пешком (м. Павелецкая, м. Тульская)</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <a role="button" class="dotted-underline">
+                                <img class="adress-img" src="../images/adress-header.png">
+                                г. Москва, Дубининская улица, д. 67, корп. 1 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block col">
+                    <div class="price-wrapper">
+                        <p class="price-banner">ЦЕНЫ: ОТ</p>
+                        <p class="price-banner">
+                            <span class="red">600</span> РУБ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="col-10 offset-2 p-0">
+                    <h4 class="text-left">Быстрое бронирование</h4>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-1.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Одноместный номер</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>1500</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-2.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухместный номер с санузлом</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2900</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-3.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухместный номер с раздельными кроватями</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2200</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-4.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Семейный номер</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2600</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-5.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Восьмиместный номер (для мужчин)</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>600</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-6.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Восьмиместный номер (для женщин)</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>600</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex p-0 room-wrapper">
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-7.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Двухместный номер с одной двуспальной кроватью</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>1900</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../uploads/2018/05/pav-mini-8.jpg">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Шестиместный номер</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>650</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться,  актуальные цены уточняйте у администратора</h4>
+            </div>
+            <div class="row">
+                <div class="img-wrapper col-2">
+                    <img src="/images/kolomenskaya.png" alt="">
+                    <p class="text-center">7 фото</p>
+                </div>
+                <div class="col-10 col-sm-8 col-md-8 col-lg-7">
+                    <div class="row">
+                        <h3 class="hostel-label">АПАРТАМЕНТЫ НА КОЛОМЕНСКОЙ</h3>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-between">
+                        <div class="grp">
+                            <img src="../images/phone.png" alt="phone">
+                            <span>+7 (499) 116 62 96</span>
+                        </div>
+                        <div class="grp">
+                            <img src="../images/metro-gray.png" alt="metro">
+                            <span>700 метров (Коломенская)</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <a role="button" class="dotted-underline">
+                                <img class="adress-img" src="../images/adress-header.png">
+                                г. Москва, Проспект Андропова, д. 44, корп. 2
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block col">
+                    <div class="price-wrapper">
+                        <p class="price-banner">ЦЕНЫ: ОТ</p>
+                        <p class="price-banner">
+                            <span class="red">2800</span> РУБ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="col-10 offset-2 p-0">
+                    <h4 class="text-left">Быстрое бронирование</h4>
+                    <div class="col-6 d-flex p-0 room-wrapper">
+                        <div class="col-12 p-0 d-flex room-card">
+                            <a href="#">
+                                <img src="../images/room-min-9.png">
+                            </a>
+                            <div class="col">
+                                <p class="room-name">
+                                    <a href="#" class="room-link">Апартаменты на Коломенской</a>
+                                </p>
+                                <p class="room-price">
+                                    <span>2800</span> руб./сутки
+                                </p>
+                                <button class="btn red-btn btn-order">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="red text-center" style="margin-bottom: 90px;">В выходные и праздничные дни цены могут отличаться,  актуальные цены уточняйте у администратора</h4>
             </div>
         </div>
     </div>
