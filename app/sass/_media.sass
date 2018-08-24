@@ -5,7 +5,16 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
-
+    header 
+        .navbar 
+            .nav-link
+                font-size: 13px
+        .info-box 
+            .phone
+                font-size: 16px
+    .form 
+        input[type=submit], input
+            font-size: 16px
 // ≥992px
 +media-breakpoint-down(md)
     header
@@ -50,6 +59,10 @@
                 margin: 5px auto
         h4
             margin: 10px auto
+    .hostels-btn-wrapper
+        a
+            margin-left: 0
+            margin-top: 15px
 // ≥576px
 +media-breakpoint-down(xs)
     .btn-order

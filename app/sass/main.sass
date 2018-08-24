@@ -64,6 +64,9 @@ i
 .absolute-button
     position: absolute
     right: 0
+.absolute-button__bottom
+    position: absolute
+    bottom: 0
     
 .hamburger-inner, .hamburger-inner
     background: #ef4b51
@@ -109,6 +112,8 @@ header
             border-radius: 0
     .socials-header
         img
+            width: 100%
+            max-width: 24px
             margin: auto 8px
     .info-box
         a, span
@@ -169,7 +174,7 @@ header
     .adresses-wrapper
         margin: 10px 0
     .service-block
-        margin-bottom: 20px
+        margin: 30px 0
 .service-img
     img
         width: 75px
@@ -384,23 +389,8 @@ footer
     .fa-instagram
         &:before     
             content: "\f16d"
-// hostel-page
-.hostel-adress
-    font-family: OpenSansSemibold
-    color: #f74f54
-    font-size: 16px
-    img
-        width: 16px
-.room-card-preview
-    border: none
-    margin-bottom: 40px
-    .room-avatar
-        width: 100%
-    .order-room-btn
-        font-weight: 600
-        width: 215px
-        height: 45px
-//room-page
+        
+//room pages
 .room-heading
     background: url('../images/room-name-bg.png')
     background-size: cover
@@ -413,14 +403,26 @@ footer
         line-height: 30px
         letter-spacing: 2.4px
         margin-bottom: 0
+        span
+            color: inherit!important
+.hostel-heading
+    background: url('../uploads/2016/04/комната-на-1-или-двоих-без-удобств-1.jpg')
+    background-size: cover
 .room-info
     padding: 75px 0
 
 .slide-thumb-big
     img
         width: 100%
-        height: 450px
-
+        height: 100%
+        max-height: 450px
+.slide-thumb
+    img
+        width: 100%
+        max-height: 100%
+    
+.sticky-top.sticky-offset
+    top: 120px
 .sidebar-form-wrapper
     h3
         color: #2b2a29
@@ -462,4 +464,42 @@ footer
         border: 1px solid #cec9c9
         padding: 10px 30px 10px 14px
         margin: 10px auto
+//hostel pages
+.hostel-adress
+    font-family: OpenSansSemibold
+    color: #f74f54
+    font-size: 16px
+    margin-bottom: 25px
+    img
+        width: 16px
+.rooms-wrapper
+    padding: 55px 0
+    h3
+        font-size: 20px
+        margin: 15px 0
+        height: 55px
+.room-card-preview
+    border: none
+    margin-bottom: 40px
+    .room-avatar
+        width: 100%
+    .order-room-btn
+        font-weight: 600
+        width: 215px
+        height: 45px
+.no-room-founded
+    margin: 30px 0
+.hostels-btn-wrapper
+    a
+        color: #000
+        margin-left: 15px
+//gallery pages
+.gallery-wrapper
+    padding: 50px 0
+.gallery-item
+    margin: 15px 0
+    img
+        width: 100%
+        height: 100%
+        max-height: 240px
 @import "media" // Always at the end

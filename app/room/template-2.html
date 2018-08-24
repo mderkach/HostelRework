@@ -32,8 +32,8 @@
         <div class="fixed-top fixed-header">
             <div class="container">
                 <div class="row">
-                    <nav class="col navbar navbar-expand-lg">
-                        <a class="navbar-brand col-1 pl-0" href="#">
+                    <nav class="col navbar navbar-expand-lg d-none d-lg-flex">
+                        <a class="navbar-brand col-1 pl-0" href="/">
                             <img src="../images/logo45.png" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,16 +44,16 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Комнаты и цены</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Хостел на Павелецкой</a>
-                                        <a class="dropdown-item" href="#">Хостел на Проспекте мира</a>
+                                        <a class="dropdown-item" href="/xostel-na-paveleckoj.html">Хостел на Павелецкой</a>
+                                        <a class="dropdown-item" href="/xostel-na-prospekte-mira.html">Хостел на Проспекте мира</a>
                                         <a class="dropdown-item" href="#">Апортаменты на Коломенской</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Фотогалерея</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Павелецкая</a>
-                                        <a class="dropdown-item" href="#">Проспект мира</a>
+                                        <a class="dropdown-item" href="/gallery-na-paveleckoj.html">Павелецкая</a>
+                                        <a class="dropdown-item" href="/gallery-na-prospekte-mira.html">Проспект мира</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
@@ -76,14 +76,31 @@
                                 <a class="phone" href="tel:+74991166296">+7 (499) 116-62-96</a>
                                 <a class="mail" href="mailTo:hostelfusion@mail.ru">hostelfusion@mail.ru</a>
                             </div>
-                            <!--
-                        <div class="info-box red-separator">
-                            <span>Напишите нам</span>
-                            <div class="w-100"></div>
-                            <a class="phone name-soc viber" href="viber://chat?number=79092332590">Viber</a>
-                            <a class="phone name-soc whatsapp" href="https://api.whatsapp.com/send?phone=89629809926">WhatsApp</a>
                         </div>
--->
+                    </nav>
+                    <nav class="navbar mobile-navbar col-12 d-lg-none navbar-expand-lg relative">
+                        <a class="navbar-brand col-2 pl-0 mr-0" href="#">
+                            <img src="../images/logo45.png" alt="">
+                        </a>
+                        <div class="hdr-btn-wrapper ">
+                            <button class="btn red-btn">Подбор номера</button>
+                        </div>
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center">
+                            <img src="../images/socials-neon/phone.png" alt="" class="phone">
+                        </div>
+                        <button class="navbar-toggler p-0 hamburger hamburger--spring collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbarNavAltMarkup" style="">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active" href="/xostel-na-paveleckoj.html">Хостел на Проспекте мира</a>
+                                <a class="nav-item nav-link" href="xostel-na-prospekte-mira.html">Хостел на Проспекте мира</a>
+                                <a class="nav-item nav-link" href="#">Апортаменты на Коломенской</a>
+                                <a class="nav-item nav-link" href="#">Оплата</a>
+                                <a class="nav-item nav-link" href="#">Как добраться</a>
+                            </div>
                         </div>
                     </nav>
                 </div>
@@ -100,7 +117,7 @@
     <div class="room-info">
         <div class="container">
             <div class="row">
-                <div class="col-8 slider-wrapper">
+                <div class="col-12 col-lg-8 slider-wrapper">
                     <div id="slider-room" class="flexslider-room">
                         <ul class="slides">
                             <li class="slide-thumb-big">
@@ -128,7 +145,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-3 offset-1 sidebar-form-wrapper sticky-top">
+                <div class="d-none d-lg-block col-lg-3 offset-lg-1 sidebar-form-wrapper sticky-top sticky-offset">
                     <h3>Забронируйте номер сейчас</h3>
                     <form action="#" method="post" class="sidebar-form form">
                         <div class="form-group">
@@ -150,12 +167,43 @@
                             <input type="submit" class="btn btn-red btn-order" value="Забронировать сейчас">
                         </div>
                         <div class="form-group">
-                            <p>Или забронируйте по номеру:<br>
-                                <strong>+7 (499) 116-63-47</strong></p>
+                            <p>
+                                Или забронируйте по номеру:<br>
+                                <strong>+7 (499) 116-63-47</strong>
+                            </p>
                         </div>
                     </form>
                 </div>
-                <div class="col-8">
+                <div class="d-lg-none col-12 sidebar-form-wrapper">
+                    <h3>Забронируйте номер сейчас</h3>
+                    <form action="#" method="post" class="sidebar-form form">
+                        <div class="form-group">
+                            <input required="" type="text" class="form-control" placeholder="Дата заезда" onfocus="(this.type='date')" />
+                        </div>
+                        <div class="form-group">
+                            <input required="" type="text" class="form-control" placeholder="Дата отъезда" onfocus="(this.type='date')" />
+                        </div>
+                        <div class="form-group">
+                            <input required="" type="number" class="form-control" placeholder="Количество гостей" />
+                        </div>
+                        <div class="form-group">
+                            <input required="" type="name" class="form-control" placeholder="Введите ваше имя" />
+                        </div>
+                        <div class="form-group">
+                            <input required="" type="tel" name="phone" class="form-control" placeholder="Введите номер телефона" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-red btn-order" value="Забронировать сейчас">
+                        </div>
+                        <div class="form-group">
+                            <p>
+                                Или забронируйте по номеру:<br>
+                                <strong>+7 (499) 116-63-47</strong>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-8 accordeon-wrapper">
                     <div id="accordion" role="tablist" aria-multiselectable="true" class="collapse-info">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
