@@ -8,7 +8,18 @@
 
 // ≥992px
 +media-breakpoint-down(md)
-    .second-screen 
+    header
+        height: 65px
+    .main-screen 
+        h1
+            font-size: 40px
+        .desc-section
+            font-size: 25px
+    .second-screen
+        h2
+            font-size: 25px
+        h3
+            font-size: 20px
         .price-wrapper 
             .price-banner
                 font-size: 30px
@@ -24,14 +35,58 @@
 +media-breakpoint-down(sm)
     .main-screen 
         h1
-            font-size: 55px
-    .second-screen 
+            font-size: 30px
+        .desc-section
+            font-size: 20px
+        
+    .second-screen
+        h2
+            margin-bottom: 20px
+            &:after
+                margin: 15px auto auto auto
         .price-wrapper 
             .price-banner
                 text-align: center
                 margin: 5px auto
+        h4
+            margin: 10px auto
 // ≥576px
 +media-breakpoint-down(xs)
+    .btn-order
+        font-size: 20px
+    .address-on-main
+        br
+            display: none
+    .reviews-controls
+        display: none
+        
+            
+@media screen and (max-width: 480px)
+    .mobile-navbar
+        .navbar-brand
+            img
+                width: 54px
+    .hamburger-inner, .hamburger-box
+        width: 24px
+        border-radius: 0
+        &::before
+            width: 24px
+            border-radius: 0
+        &::after
+            width: 24px
+            border-radius: 0
+    .main-screen 
+        h1
+            line-height: 1
+        .desc-section
+            font-size: 14px
+        .address-on-main
+            font-size: 14px
+    .second-screen 
+        h3
+            font-size: 18px
+        h4
+            font-size: 14px
 
 
 /*==========  Mobile First  ==========*/
