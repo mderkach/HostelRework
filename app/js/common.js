@@ -6,6 +6,20 @@ $(function () {
     $hamburger.on("click", function (e) {
         $hamburger.toggleClass("is-active");
     });
+    //smoothscroll
+
+    $('.address-on-main').click(function () {
+        var sectionTo = $(this).attr('href');
+        if(window.matchMedia('(max-width: 480px)').matches){
+            $('html, body').animate({
+                scrollTop: $(sectionTo).offset().top - 75
+            }, 1500);
+        } else {
+            $('html, body').animate({
+                scrollTop: $(sectionTo).offset().top - 120//srcoll to elemement with 120px offset on top (sticky header height)
+            }, 1500);
+        }
+    });
     //slider on main page
     $('.flexslider').flexslider({
         animation: 'fade',
@@ -77,14 +91,14 @@ $(function () {
         hideScrollbar: true
     });
     //popup data placement
-    $('.room-type').html();//get span with room name | получаем спан с именем номера
-    $('input[name="room"]').val();//get value of hidden input | получаем значение скрытого инпута
-    $('input[name="hostel"]').val();//get value of hidden input | получаем значение скрытого инпута
-    $('[data-room]').on('click', function(){//if click on button with data-room attr | по клику на кнопку с  data-room
+    $('.room-type').html(); //get span with room name | получаем спан с именем номера
+    $('input[name="room"]').val(); //get value of hidden input | получаем значение скрытого инпута
+    $('input[name="hostel"]').val(); //get value of hidden input | получаем значение скрытого инпута
+    $('[data-room]').on('click', function () { //if click on button with data-room attr | по клику на кнопку с  data-room
         var room = $(this).data('room'); //get value from 'data-' attr, append to "var room" | получаем значение "data-" артибута и сохраняем в переменную room
         var hostel = $(this).data('hostel'); //get value from 'data-' attr, append to "var hoste" | получаем значение "data-" артибута и сохраняем в переменную hostel
-        $('.room-type').html(room);//place value to span | помещаем значение в span
-        $('input[name="room"]').val(room);//place value to hidden input | помещаем значение в скрытый инпут
-        $('input[name="hostel"]').val(hostel);//place value to hidden input | помещаем значение в скрытый инпут
+        $('.room-type').html(room); //place value to span | помещаем значение в span
+        $('input[name="room"]').val(room); //place value to hidden input | помещаем значение в скрытый инпут
+        $('input[name="hostel"]').val(hostel); //place value to hidden input | помещаем значение в скрытый инпут
     });
 });
