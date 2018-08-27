@@ -17,8 +17,6 @@
             font-size: 16px
 // ≥992px
 +media-breakpoint-down(md)
-    header
-        height: 65px
     .main-screen 
         h1
             font-size: 40px
@@ -60,6 +58,8 @@
                 margin: 5px auto
         h4
             margin: 10px auto
+        .grp
+            text-align: center
     .hostels-btn-wrapper
         a
             margin-left: 0
@@ -107,8 +107,14 @@
         .dotted-underline
             font-size: 12px
     .room-card 
-        .room-link, .room-card p
+        .room-price
+            font-size: 20px
+        .room-link, p, .btn
             font-size: 12px
+    .rooms-wrapper 
+        h3
+            height: auto
+            margin-bottom: 0
     .popup 
         h2, span
             font-size: 17px
@@ -117,7 +123,18 @@
                 margin: 5px auto
             .form-group
                 margin-bottom: 0
-            
+                
+@media screen and (max-width: 379px)
+    .checkmark
+        margin-right: 5px
+        width: 15px
+    .main-phone-small
+        width: 18px
+    .popup
+        h2, .room-type
+            font-size: 15px
+        p
+            font-size: 14px
 
 /*==========  Mobile First  ==========*/
 

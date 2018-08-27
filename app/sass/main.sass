@@ -58,9 +58,7 @@ i
     color: #ef4b51
     .phone-to
         color: #ef4b51
-.fixed-header
-    background: #fff
-    padding: 10px 0
+
 .absolute-button
     position: absolute
     right: 0
@@ -75,9 +73,10 @@ i
     &::before
         background: #ef4b51
     
-    
 header
-    height: 100px
+    background: #fff
+    padding: 10px 0
+    box-shadow: 0 3px 6px -1px rgba(0,0,0,.6)
     a, span
         color: #000
         &:hover
@@ -93,7 +92,7 @@ header
         background: #fff
         //box-shadow: 0px 1px 0px 0px #000
         .nav-link
-            font-family: OpenSansSemiBold
+            font-family: "OpenSansSemiBold"
             text-decoration: underline
             font-size: 14px
         .dropdown-menu
@@ -106,7 +105,7 @@ header
         button
             background: #ef4b51
             color: #fff
-            font-family: Open Sans
+            font-family: "OpenSansRegular"
             font-size: 14px
             font-weight: 400
             border-radius: 0
@@ -121,9 +120,9 @@ header
         a, span
             font-size: 14px
             font-weight: 700
-            font-family: OpenSansSemiBold
+            font-family: "OpenSansSemiBold"
         .phone
-            font-family: OpenSansExtraBold
+            font-family: "OpenSansExtraBold"
             font-size: 18px
     .red-separator
         padding-left: 5px
@@ -158,6 +157,7 @@ header
     padding: 0
     border: none
     background: transparent
+    margin-left: 95%
     &:hover
         cursor: pointer
     img
@@ -173,7 +173,7 @@ header
         .info-box-first
             margin-bottom: 45px
     h1
-        font-family: OpenSansExtraBold
+        font-family: "OpenSansExtraBold"
         color: #fefefe
         font-size: 64px
         font-weight: 700
@@ -182,7 +182,7 @@ header
         text-transform: uppercase
         margin-bottom: 20px
     .desc-section
-        font-family: OpenSansSemiBold
+        font-family: "OpenSansSemiBold"
         color: #fff
         font-size: 32px
         font-weight: 600
@@ -202,7 +202,7 @@ header
         height: 75px
         
 .rub
-    font-family: Open Sans, sans-serif
+    font-family: "OpenSansRegular", sans-serif
     color: #000!important
 .checkmark
     margin-right: 10px
@@ -210,7 +210,7 @@ header
     height: 70px
     color: #fff
     background-color: #ff4c52
-    font-family: OpenSansRegular
+    font-family: "OpenSansRegular"
     color: #fefefe
     font-size: 24px
     font-weight: 400
@@ -220,7 +220,7 @@ header
     
 .second-screen
     h2
-        font-family: OpenSansBold
+        font-family: "OpenSansBold"
         color: #2b2a29
         font-size: 48px
         font-weight: 700
@@ -236,26 +236,26 @@ header
             display: block
             margin: 25px auto auto auto
     h3
-        font-family: Open Sans
+        font-family: "OpenSansBold"
         font-size: 25px
         font-weight: 700
     h4
-        font-family: Open Sans
-        font-size: 18px
+        font-family: "OpenSansRegular"
+        font-size: 20px
         font-weight: 400
         margin-top: 15px
-        margin-bottom: 90px
+        margin-bottom: 30px
     .order-hostel
         font-weight: 700
     .grp
         span
             color: #272625
             font-weight: 500
-            font-family: Open Sans
+            font-family: "OpenSansSemiBold"
             font-size: 16px
     .price-wrapper
             .price-banner
-                font-family: Open Sans
+                font-family: "OpenSansBold"
                 color: #2b2a29
                 font-size: 42px
                 font-weight: 700
@@ -263,16 +263,20 @@ header
                 background-color: #ffffff
                 line-height: 74px
                 margin-bottom: 0px
-    
+    .grp
+        margin-bottom: 20px
     .dotted-underline
-        font-family: OpenSansSemibold
+        font-family: "OpenSansSemiBold"
         color: #f74f54!important
         font-size: 16px
         border-bottom: 3px dotted #f74f54
+        .adress-img
+            width: 16px
+            margin-right: 8px
     .rooms-count
         color: #272625
         font-weight: 500
-        font-family: Open Sans
+        font-family: "OpenSansRegular"
         margin-bottom: 0px
         font-size: 16px
         margin-top: 8px
@@ -292,7 +296,7 @@ header
         color: #000
         text-align: left
         font-weight: 500
-        font-family: Open Sans
+        font-family: "OpenSansRegular"
         margin-bottom: 0px
         font-size: 16px
         span
@@ -306,7 +310,7 @@ header
     .btn
         width: 165px
         height: 35px
-        font-family: Open Sans
+        font-family: "OpenSansRegular"
         font-size: 16px
         font-weight: 400
         text-align: center
@@ -316,7 +320,7 @@ header
 .bullit-box
     text-align: center
     .title-box 
-        font-family: "Open Sans"
+        font-family: "OpenSansRegular"
         color: #ff4c52
         font-size: 18px
         font-weight: 700
@@ -324,7 +328,7 @@ header
         margin-bottom: 20px
         margin-top: 25px
     .desc-box 
-        font-family: "Open Sans"
+        font-family: "OpenSansRegular"
         color: #fefefe
         font-size: 16px
         font-weight: 400
@@ -339,7 +343,7 @@ header
         color: #fff
         text-transform: uppercase
         letter-spacing: 3px
-        font-family: OpenSansBold
+        font-family: "OpenSansBold"
         font-size: 48px
         &:after
             content: ''
@@ -370,7 +374,7 @@ header
         
 .review
     p
-        font-family: Open Sans
+        font-family: "OpenSansRegular"
         font-size: 16px
         margin-bottom: 20px
     .review-author
@@ -424,7 +428,7 @@ footer
     padding: 75px 0
     h2
         color: #fff
-        font-family: OpenSansSemiBold
+        font-family: "OpenSansSemiBold"
         font-size: 24px
         font-weight: 700
         line-height: 30px
@@ -444,9 +448,26 @@ footer
         height: 100%
         max-height: 450px
 .slide-thumb
+    margin-top: 20px
     img
         width: 100%
         max-height: 100%
+.custom-navigation
+    width: 100%
+    position: absolute
+    z-index: 999
+    top: 50%
+    a
+        color: #fff
+        background: #000
+        opacity: 0.7
+        display: block
+        font-size: 20px
+        line-height: 20px
+        padding: 10px 15px
+        max-width: 40px
+.flex-control-nav
+    display: none
 .room-spec-wrapper
     padding-top: 10px
     padding-bottom: 10px
@@ -456,10 +477,11 @@ footer
     
 .sticky-top.sticky-offset
     top: 120px
+    z-index: 50!important
 .sidebar-form-wrapper
     h3
         color: #2b2a29
-        font-family: Open Sans
+        font-family: "OpenSansRegular"
         font-size: 21px
         font-weight: 700
         text-transform: uppercase
@@ -505,7 +527,7 @@ footer
         font-size: 18px
         height: 50px
 .hostel-adress
-    font-family: OpenSansSemibold
+    font-family: "OpenSansSemiBold"
     color: #f74f54
     font-size: 16px
     margin-bottom: 25px
