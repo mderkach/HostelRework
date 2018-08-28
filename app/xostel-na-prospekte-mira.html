@@ -293,21 +293,21 @@
     <div class="popup" id="popup">
         <div class="container">
             <h2 class="text-center">Забронировать <span class="room-type"></span></h2>
-            <form class="form">
+            <form class="form" action="./handlers/order.php" method="post">
                 <div class="form-row">
                     <input name="room" value="" type="hidden">
                     <input name="hostel" value="" type="hidden">
-                    <div class="col">
-                        <input required="" type="text" class="form-control" placeholder="Дата заезда" onfocus="(this.type='date')" />
+                    <div class="col-12 col-md">
+                        <input required="" name="in" type="text" class="form-control date" placeholder="Дата заезда"/>
                     </div>
-                    <div class="col">
-                        <input required="" type="text" class="form-control" placeholder="Дата отъезда" onfocus="(this.type='date')" />
-                    </div>
-                    <div class="form-group col-12">
-                        <input required="" type="number" class="form-control" placeholder="Количество гостей" />
+                    <div class="col-12 col-md">
+                        <input required="" name="out" type="text" class="form-control date" placeholder="Дата отъезда"/>
                     </div>
                     <div class="form-group col-12">
-                        <input required="" type="name" class="form-control" placeholder="Введите ваше имя" />
+                        <input required="" name="guests" type="number" class="form-control" placeholder="Количество гостей" />
+                    </div>
+                    <div class="form-group col-12">
+                        <input required="" type="name" name="name" class="form-control" placeholder="Введите ваше имя" />
                     </div>
                     <div class="form-group col-12">
                         <input required="" type="tel" name="phone" class="form-control" placeholder="Введите номер телефона" />
