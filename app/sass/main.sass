@@ -149,8 +149,10 @@ header
     margin-bottom: 20px
  
 .popover-btn
-        background: #fff
-        border: none
+    background: #fff
+    border: none
+    &:hover
+        cursor: pointer
 .popover-close
     width: 15px
     height: 15px
@@ -194,7 +196,7 @@ header
     .service-block
         margin: 30px 0
         .service-box
-            &:hover
+            //&:hover
                 cursor: pointer
 .service-img
     img
@@ -399,28 +401,11 @@ footer
         font-weight: 700
         text-transform: uppercase
         letter-spacing: 2px
-    i
-        margin-right: 10px
-    .fa-phone
-        &:before
-            content: "\f095"
-    .fa-envelope-o
-        &:before
-            content: "\f003"
-    .fa-facebook
-        &:before
-            content: "\f09a"
-    .fa-vk
-        &:before
-            content: "\f189"
-    .fa-instagram
-        &:before     
-            content: "\f16d"
-    .textwidget
-        a
-            &:hover
-                text-decoration: none
-        
+    .socials-footer
+        img
+            width: 100%
+            max-width: 24px
+            margin: auto 8px
 //room pages
 .room-heading
     background: url('../images/room-name-bg.png')
@@ -579,10 +564,14 @@ footer
             text-decoration: none
 .card-wrapper
     margin: 20px 0
+.transport-wrapper
+    margin-top: 15px
 .transport-item
     p
         margin-bottom: 0
     img
+        position: relative
+        left: -15px
         margin-right: 10px
 //popup
 .fancybox-container
@@ -611,4 +600,10 @@ footer
     width: 100%
     height: 400px
 
+.mail
+    &:hover
+        cursor: pointer
+.main-phone-small
+    &:hover
+        cursor: pointer
 @import "media" // Always at the end
