@@ -14,10 +14,10 @@ var gulp          = require('gulp'),
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		/*server: {
+		server: {
 			baseDir: 'app'
-		},*/
-		proxy: "HostelRework",
+		},
+		//proxy: "HostelRework",
 		notify: false,
 		// open: false,
 		// online: false, // Work Offline Without Internet Connection

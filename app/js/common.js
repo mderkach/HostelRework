@@ -128,4 +128,10 @@ $(function () {
     $('.date').on('cancel.daterangepicker', function (ev, picker) {
         $(this).val('');
     });
+    //socials and mail in new tab
+    $('.socials-header a, .socials-footer a, .socials-main a, .mail').on('click', function(e){
+        e.preventDefault();//disable defult redirect from href
+        var href = $(this).attr('href');//get href
+        window.open(href);//open new window with url
+    });
 });
