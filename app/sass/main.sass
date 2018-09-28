@@ -72,7 +72,15 @@ i
         background: #ef4b51
     &::before
         background: #ef4b51
-    
+.form-group
+    p
+        strong
+            &:hover
+                cursor: pointer
+.hf-info
+    span
+        &:hover
+            cursor: pointer
 header
     background: #fff
     padding: 10px 0
@@ -250,6 +258,8 @@ header
     .order-hostel
         font-weight: 700
     .grp
+        &:hover
+            cursor: pointer
         span
             color: #272625
             font-weight: 500
@@ -491,6 +501,7 @@ footer
         color: #000
         margin-bottom: 0
         
+
 .collapse-info
     h4
         a
@@ -502,10 +513,15 @@ footer
         font-size: 12px
     .panel
         border: 1px solid #cec9c9
-        padding: 10px 30px 10px 14px
         margin: 10px auto
-        &:hover
-            cursor: pointer
+        cursor: pointer
+    .panel-heading
+        cursor: pointer
+    .panel-title
+        cursor: pointer
+        margin: 5px 30px 10px 14px
+    .panel-collapse
+        padding: 0 30px 0 14px
 //hostel pages
 .hostel-heading
     .btn-order
