@@ -88,19 +88,15 @@ if(!$error) {
 
     $fieldsarray = array("mail");
     $checker = botShallNotPass($fieldsarray);
-    if ( $checker != 1 ){
-        mail("derkach94@gmail.com", $subject, $content, $headers);   
-    }
-    else{
-        echo "По всей видимости вы бот:) Вы смогли заполнить скрытые поля, созданные для бота.";
-    }
-
-    //redirect to thank-you.html page.
-    header('location:../ty.html');
-} elseif($error2) {
-        echo '<h1>Вы должны принять согласие на обработку персональных данных</h1>';
-    } else {
-        echo '<h1>Неизвестная ошибка, обратитесь к администратору!</h1>';
-    }
+     if ( $checker != 1 ){
+            mail("derkach94@gmail.com", $subject, $content, $headers);  
+            echo json_encode($content);
+        }
+        else{
+            echo json_encode("По всей видимости вы бот:) Вы смогли заполнить скрытые поля, созданные для бота.");
+        }
+}  else {
+    echo json_encode($error);
+}
 ?>
 

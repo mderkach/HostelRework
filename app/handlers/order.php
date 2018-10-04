@@ -133,22 +133,13 @@ if(!$error) {
     $fieldsarray = array("mail");
     $checker = botShallNotPass($fieldsarray);
     if ( $checker != 1 ){
-        mail("derkach94@gmail.com", $subject, $content, $headers);   
+        mail("derkach94@gmail.com", $subject, $content, $headers);  
+        echo json_encode($content);
     }
     else{
-        echo "По всей видимости вы бот:) Вы смогли заполнить скрытые поля, созданные для бота.";
+        echo json_encode("По всей видимости вы бот:) Вы смогли заполнить скрытые поля, созданные для бота.");
     }
-    //redirect to thank-you.html page.
-    header('location:../ty.html');
-    }  else {
-        echo '<h1>Неизвестная ошибка, обратитесь к администратору!</h1>' .
-            '<p>Передайте данные ниже:</p>' .
-             "Комната:" . $room . "\n" .
-             "Хостел:" .  $hostel . "\n" .
-             "Заезд:" . $in . "\n" .
-             "Выезд:" . $out . "\n" .
-             "Гости:" . $guests . "\n" .
-             "Имя:" . $name . "\n" .
-             "Телефон:" . $phone;
-    }
+}  else {
+    echo json_encode($error);
+}
 ?>
