@@ -350,6 +350,12 @@ if(isset($_GET['cm_title'])){
                 <div class="form-row">
                     <input name="room" value="" type="hidden">
                     <input name="hostel" value="" type="hidden">
+                    <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
+                    <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
+                    <input name="utm_campaign" value="<?php echo $utm_campaign; ?>" type="hidden">
+                    <input name="utm_term" value="<?php echo $utm_term; ?>" type="hidden">
+                    <input name="utm_content" value="<?php echo $utm_content; ?>" type="hidden">
+                    <input name="cm_title" value="<?php echo $cm_title; ?>" type="hidden">
                     <div class="col-12 col-md">
                         <input required="" name="in" type="text" class="form-control date" placeholder="Дата заезда" />
                     </div>
@@ -384,6 +390,12 @@ if(isset($_GET['cm_title'])){
             <p class="text-center">Заполните поля ниже сейчас</p>
             <form action="" class="form" id="form_find">
                 <input type="hidden" name="position" value="">
+                <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
+                <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
+                <input name="utm_campaign" value="<?php echo $utm_campaign; ?>" type="hidden">
+                <input name="utm_term" value="<?php echo $utm_term; ?>" type="hidden">
+                <input name="utm_content" value="<?php echo $utm_content; ?>" type="hidden">
+                <input name="cm_title" value="<?php echo $cm_title; ?>" type="hidden">
                 <div class="form-row">
                     <div class="form-group col-12">
                         <input required="" type="name" name="name" class="form-control" placeholder="Введите ваше имя" />

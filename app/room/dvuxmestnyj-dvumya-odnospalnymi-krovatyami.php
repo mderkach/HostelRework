@@ -228,6 +228,12 @@ if(isset($_GET['cm_title'])){
                 <div class="d-none d-lg-block col-lg-3 offset-lg-1 sidebar-form-wrapper sticky-top sticky-offset">
                     <h3>Забронируйте номер сейчас</h3>
                     <form action="../handlers/order.php" method="post" class="sidebar-form form">
+                        <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
+                        <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
+                        <input name="utm_campaign" value="<?php echo $utm_campaign; ?>" type="hidden">
+                        <input name="utm_term" value="<?php echo $utm_term; ?>" type="hidden">
+                        <input name="utm_content" value="<?php echo $utm_content; ?>" type="hidden">
+                        <input name="cm_title" value="<?php echo $cm_title; ?>" type="hidden">
                         <input name="room" value="Двухместный номер с раздельными кроватями" type="hidden">
                         <input name="hostel" value="Проспект мира" type="hidden">
                         <div class="form-group">
@@ -246,7 +252,7 @@ if(isset($_GET['cm_title'])){
                             <input required="" type="tel" name="phone" class="form-control" placeholder="Введите номер телефона" />
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-red btn-order" value="Забронировать сейчас">
+                            <input type="submit" class="btn btn-red btn-order" id="submit_order" value="Забронировать сейчас">
                         </div>
                         <div class="form-group">
                             <p>
@@ -259,6 +265,12 @@ if(isset($_GET['cm_title'])){
                 <div class="d-lg-none col-12 sidebar-form-wrapper">
                     <h3>Забронируйте номер сейчас</h3>
                     <form action="../handlers/order.php" method="post" class="sidebar-form form">
+                        <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
+                        <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
+                        <input name="utm_campaign" value="<?php echo $utm_campaign; ?>" type="hidden">
+                        <input name="utm_term" value="<?php echo $utm_term; ?>" type="hidden">
+                        <input name="utm_content" value="<?php echo $utm_content; ?>" type="hidden">
+                        <input name="cm_title" value="<?php echo $cm_title; ?>" type="hidden">
                         <input name="room" value="Двухместный номер с раздельными кроватями" type="hidden">
                         <input name="hostel" value="Проспект мира" type="hidden">
                         <div class="form-group">
@@ -277,7 +289,7 @@ if(isset($_GET['cm_title'])){
                             <input required="" type="tel" name="phone" class="form-control" placeholder="Введите номер телефона" />
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-red btn-order" value="Забронировать сейчас">
+                            <input type="submit" class="btn btn-red btn-order" id="submit_order" value="Забронировать сейчас">
                         </div>
                         <div class="form-group">
                             <p>
