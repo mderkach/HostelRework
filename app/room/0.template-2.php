@@ -232,7 +232,7 @@ if(isset($_GET['cm_title'])){
                 </div>
                 <div class="d-none d-lg-block col-lg-3 offset-lg-1 sidebar-form-wrapper sticky-top sticky-offset">
                     <h3>Забронируйте номер сейчас</h3>
-                    <form action="#" method="post" class="sidebar-form form">
+                    <form action="../handlers/order.php" id="form_order" method="post" class="sidebar-form form">
                         <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
                         <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
                         <input name="utm_campaign" value="<?php echo $utm_campaign; ?>" type="hidden">
@@ -269,7 +269,7 @@ if(isset($_GET['cm_title'])){
                 </div>
                 <div class="d-lg-none col-12 sidebar-form-wrapper">
                     <h3>Забронируйте номер сейчас</h3>
-                    <form action="#" method="post" class="sidebar-form form">
+                    <form action="../handlers/order.php" id="form_order" method="post" class="sidebar-form form">
                         <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
                         <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
                         <input name="utm_campaign" value="<?php echo $utm_campaign; ?>" type="hidden">

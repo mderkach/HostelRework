@@ -190,11 +190,11 @@ if(!$error) {
     $fieldsarray = array("mail");
     $checker = botShallNotPass($fieldsarray);
     if ( $checker != 1 ){
-        mail("derkach94@gmail.com", $subject, $content, $headers);  
-        //mail("hostelfusion@mail.ru", $subject, $content, $headers);  
-        //mail("wordpress@hostelfusion.ru", $subject, $content, $headers);  
-        //mail("noreply@hostelfusion.ru", $subject, $content, $headers);  
-        //mail("thriller.mgh@gmail.com", $subject, $content, $headers);  
+        //mail("derkach94@gmail.com", $subject, $content, $headers);  
+        mail("hostelfusion@mail.ru", $subject, $content, $headers);  
+        mail("wordpress@hostelfusion.ru", $subject, $content, $headers);  
+        mail("noreply@hostelfusion.ru", $subject, $content, $headers);  
+        mail("thriller.mgh@gmail.com", $subject, $content, $headers);  
 
         echo json_encode($content);
     }

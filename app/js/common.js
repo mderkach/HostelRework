@@ -136,7 +136,6 @@ $(function () {
             data: $("#" + ajax_form).serialize(), // Сеарилизуем объект
             success: function (response) { //Данные отправлены успешно
                 result = $.parseJSON(response);
-                console.log(response);
                 if (result == true) {//проверка не пройдена
                     $.fancybox.open('<div class="message"><h2>Ошибка!</h2><p style="color:#000">Заполните поля и повторите отправку!</p></div>');
                 } else {//проверка пройдена
@@ -146,13 +145,16 @@ $(function () {
             },
         });
     };
+    var url_order = $('#form_order').attr('action');
+    var url_find = $('#form_find').attr('action');
     $('input[type="submit"]').each(function () {
         $(this).click(function () {
+            console.log($('form').attr('action'));
             if ($(this).attr('id') == 'submit_order') {
-                sendAjaxForm('form_order', './handlers/order.php');
+                sendAjaxForm('form_order', url_order);
                 return false;
             } else {
-                sendAjaxForm('form_find', './handlers/get_hostel.php');
+                sendAjaxForm('form_find', url_find);
                 return false;
             }
 

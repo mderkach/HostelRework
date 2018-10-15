@@ -296,7 +296,7 @@ if(isset($_GET['cm_title'])){
     <div class="popup" id="popup">
         <div class="container">
             <h2 class="text-center">Забронировать <span class="room-type"></span></h2>
-            <form class="form" action="" id="form_order">
+            <form class="form" action="./handlers/order.php" id="form_order">
                 <div class="form-row">
                     <input name="room" value="" type="hidden">
                     <input name="hostel" value="" type="hidden">
@@ -338,7 +338,7 @@ if(isset($_GET['cm_title'])){
         <div class="container">
             <h2 class="text-center">Получить подбор хостела</h2>
             <p class="text-center">Заполните поля ниже сейчас</p>
-            <form action="" class="form" id="form_find">
+            <form action="./handlers/get_hostel.php" class="form" id="form_find">
                 <input type="hidden" name="position" value="">
                 <input name="utm_medium" value="<?php echo $utm_medium; ?>" type="hidden">
                 <input name="utm_source" value="<?php echo $utm_source; ?>" type="hidden">
@@ -361,8 +361,6 @@ if(isset($_GET['cm_title'])){
         </div>
     </div>
     <!--  popup  -->
-
-
     <script src="./js/scripts.min.js"></script>
     <!-- calltouch code -->
     <script type="text/javascript">
