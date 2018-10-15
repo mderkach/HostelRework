@@ -9,6 +9,14 @@ $guests = '';
 $name = '';
 $phone = '';
 
+
+$utm_medium = '';
+$utm_source = '';
+$utm_campaign = '';
+$utm_term = '';
+$utm_content = '';
+$cm_title = '';
+
 //Город и область посетителя
 include("./detect.php");
 $place[0] = occurrenceCity();
@@ -20,6 +28,49 @@ $ip   = getIp();
 //taking info about date
 
 $timestamp = date("Y-m-d H:i:s");
+
+//utm-метки
+$utm_medium = trim($_POST['utm_medium']);
+if(empty($utm_medium) || ($utm_medium != strip_tags($utm_medium))){
+    $error = true;
+} else {
+    $utm_medium = htmlspecialchars($utm_medium, ENT_QUOTES);
+}
+
+$utm_source = trim($_POST['utm_source']);
+if(empty($utm_source) || ($utm_source != strip_tags($utm_source))){
+    $error = true;
+} else {
+    $utm_source = htmlspecialchars($utm_source, ENT_QUOTES);
+}
+
+$utm_campaign = trim($_POST['utm_campaign']);
+if(empty($utm_campaign) || ($utm_campaign != strip_tags($utm_campaign))){
+    $error = true;
+} else {
+    $utm_campaign = htmlspecialchars($utm_campaign, ENT_QUOTES);
+}
+
+$utm_term = trim($_POST['utm_term']);
+if(empty($utm_term) || ($utm_term != strip_tags($utm_term))){
+    $error = true;
+} else {
+    $utm_term = htmlspecialchars($utm_term, ENT_QUOTES);
+}
+
+$utm_content = trim($_POST['utm_content']);
+if(empty($utm_content) || ($utm_content != strip_tags($utm_content))){
+    $error = true;
+} else {
+    $utm_content = htmlspecialchars($utm_content, ENT_QUOTES);
+}
+
+$cm_title = trim($_POST['cm_title']);
+if(empty($cm_title) || ($cm_title != strip_tags($cm_title))){
+    $error = true;
+} else {
+    $cm_title = htmlspecialchars($cm_title, ENT_QUOTES);
+}
 
 //taking the data from form
 
@@ -108,6 +159,12 @@ if(!$error) {
         "<tr><td><strong>IP посетителя:</strong> </td><td>".$ip."</td></tr>\n\n" .
         "<tr><td><strong>Область посетителя:</strong> </td><td>".$place[1]."</td></tr>\n\n" .
         "<tr><td><strong>Город посетителя:</strong> </td><td>".$place[0]."</td></tr>\n\n" .
+        "<tr><td><strong>Канал кампании (utm_medium):</strong> </td><td>".$utm_medium."</td></tr>\n\n".
+        "<tr><td><strong>Источник кампании (utm_source):</strong> </td><td>".$utm_source."</td></tr>\n\n".
+        "<tr><td><strong>Название кампании (utm_campaign):</strong> </td><td>".$utm_campaign."</td></tr>\n\n".
+        "<tr><td><strong>Ключевое слово кампании (utm_term):</strong> </td><td>".$utm_term."</td></tr>\n\n".
+        "<tr><td><strong>Содержание кампании (utm_content):</strong> </td><td>".$utm_content."</td></tr>\n\n".
+        "<tr><td><strong>cm_title:</strong> </td><td>".$cm_title."</td></tr>\n\n".
         "</table></body></html>\n\n";
 
 
