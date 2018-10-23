@@ -142,7 +142,7 @@ if(isset($_GET['cm_title'])){
                     </div>
                     <div class="header-phone-box d-flex col-2 pr-0">
                         <div class="info-box padr-5 d-flex flex-column text-right">
-                            <a class="phone" href="tel:+79037903911">+7 (903) 790-39-11</a>
+                            <a class="phone" href="tel:+88005519784">8 (800) 551-97-84</a>
                             <a class="mail" href="mailTo:hostelfusion@mail.ru">hostelfusion@mail.ru</a>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ if(isset($_GET['cm_title'])){
                         <button data-fancybox data-position="Шапка мобильного меню" data-src="#find-hostel" class="btn red-btn">Подбор номера</button>
                     </div>
                     <div class="icon-wrapper d-flex justify-content-center align-items-center">
-                        <a href="tel:+79037903911">
+                        <a href="tel:+88005519784">
                             <img src="../images/socials-neon/phone.png" alt="" class="phone">
                         </a>
                     </div>
@@ -275,7 +275,7 @@ if(isset($_GET['cm_title'])){
                         <div class="form-group">
                             <p>
                                 Или забронируйте по номеру:<br>
-                                <strong onclick="location.href='tel:+79037903911'">+7 (903) 790-39-11</strong>
+                                <strong onclick="location.href='tel:+88005519784'">8 (800) 551-97-84</strong>
                             </p>
                         </div>
                     </form>
@@ -312,7 +312,7 @@ if(isset($_GET['cm_title'])){
                         <div class="form-group">
                             <p>
                                 Или забронируйте по номеру:<br>
-                                <strong onclick="location.href='tel:+79037903911'">+7 (903) 790-39-11</strong>
+                                <strong onclick="location.href='tel:+88005519784'">8 (800) 551-97-84</strong>
                             </p>
                         </div>
                     </form>
@@ -417,7 +417,7 @@ if(isset($_GET['cm_title'])){
                     <div class="textwidget">
                         <p>
                             <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
-                            <a href="tel:+79037903911">+7 (903) 790-39-11</a>
+                            <a href="tel:+88005519784">8 (800) 551-97-84</a>
                         </p>
                         <a href="mailTo:hostelfusion@mail.ru">
                             <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>
@@ -431,7 +431,7 @@ if(isset($_GET['cm_title'])){
                     <div class="textwidget">
                         <p>
                             <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
-                            <a href="tel:+79037903911">+7 (499) 116-68-78</a>
+                            <a href="tel:+88005519784">+7 (499) 116-68-78</a>
                         </p>
                         <p>
                             <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>

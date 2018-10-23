@@ -137,10 +137,10 @@ $(function () {
             success: function (response) { //Данные отправлены успешно
                 result = $.parseJSON(response);
                 if (result == true) {//проверка не пройдена
-                    $.fancybox.open('<div class="message"><h2>Ошибка!</h2><p style="color:#000">Заполните поля и повторите отправку!</p></div>');
+                    $.fancybox.open('<div class="message"><h2 class="error_submit">Ошибка!</h2><p class="error_submit" style="color:#000">Заполните поля и повторите отправку!</p></div>');
                 } else {//проверка пройдена
                     $.fancybox.close();
-                    $.fancybox.open('<div class="message"><h2>Спасибо!</h2><p style="color:#000">Мы свяжемся с вами в ближайшее время!</p></div>');
+                    $.fancybox.open('<div class="message"><h2 class="sucess_submit">Спасибо!</h2><p class="sucess_submit" style="color:#000">Мы свяжемся с вами в ближайшее время!</p></div>');
                 }
             },
         });

@@ -142,7 +142,7 @@ if(isset($_GET['cm_title'])){
                     </div>
                     <div class="header-phone-box d-flex col-2 pr-0">
                         <div class="info-box padr-5 d-flex flex-column text-right">
-                            <a class="phone" href="tel:+79037903911">+7 (903) 790-39-11</a>
+                            <a class="phone" href="tel:88005519784">8 (800) 551-97-84</a>
                             <a class="mail" href="mailTo:hostelfusion@mail.ru">hostelfusion@mail.ru</a>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ if(isset($_GET['cm_title'])){
                         <button data-fancybox data-position="Шапка мобильного меню" data-src="#find-hostel" class="btn red-btn">Подбор номера</button>
                     </div>
                     <div class="icon-wrapper d-flex justify-content-center align-items-center">
-                        <a href="tel:+79037903911">
+                        <a href="tel:88005519784">
                             <img src="./images/socials-neon/phone.png" alt="" class="phone">
                         </a>
                     </div>
@@ -210,7 +210,7 @@ if(isset($_GET['cm_title'])){
                                     Хостел на Павелецкой<br>
                                     <span class="d-md-inline d-none">(12 минут пешком)</span>
                                 </a>
-                                <span class="d-md-none"><img onclick="location.href='tel:+79037903911'" class="main-phone-small" src="./images/socials-neon/phone.png" alt=""></span>
+                                <span class="d-md-none"><img onclick="location.href='tel:88005519784'" class="main-phone-small" src="./images/socials-neon/phone.png" alt=""></span>
                             </div>
                             <div class="col-12 col-md-4 offset-md-2 d-flex align-items-center justify-content-center justify-content-md-start">
                                 <img class="checkmark" src="./images/adress-header.png">
@@ -218,7 +218,7 @@ if(isset($_GET['cm_title'])){
                                     Хостел на Проспекте мира<br>
                                     <span class="d-md-inline d-none">(7 минут пешком)</span>
                                 </a>
-                                <span class="d-md-none"><img onclick="location.href='tel:+79037903911'" class="main-phone-small" src="./images/socials-neon/phone.png" alt=""></span>
+                                <span class="d-md-none"><img onclick="location.href='tel:88005519784'" class="main-phone-small" src="./images/socials-neon/phone.png" alt=""></span>
                             </div>
                         </div>
                     </div>
@@ -303,9 +303,9 @@ if(isset($_GET['cm_title'])){
                         <h3 class="hostel-label">ХОСТЕЛ FUSION НА ПРОСПЕКТЕ МИРА ОТ <span class="red">500</span> <span class="rub">₽</span> </h3>
                     </div>
                     <div class="col p-0 d-flex flex-column flex-lg-row align-items-center justify-content-between justify-content-md-start align-items-md-start">
-                        <div class="col-12 col-lg-5 grp" onclick="location.href='tel:+79037903911'">
+                        <div class="col-12 col-lg-5 grp" onclick="location.href='tel:88005519784'">
                             <img src="./images/phone.png" alt="phone">
-                            <span>+7 (903) 790-39-11</span>
+                            <span>8 (800) 551-97-84</span>
                         </div>
                         <div class="col-12 col-lg-5 grp">
                             <img src="./images/metro-gray.png" alt="metro">
@@ -494,7 +494,7 @@ if(isset($_GET['cm_title'])){
                         </div>
                     </div>
                 </div>
-                <h4 class="red text-center">В выходные и праздники цены могут отличаться, актуальные цены уточняйте у администратора по телефону <a class="phone-to" href="tel:+79037903911">+7 (903) 790-39-11</a></h4>
+                <h4 class="red text-center">В выходные и праздники цены могут отличаться, актуальные цены уточняйте у администратора по телефону <a class="phone-to" href="tel:88005519784">8 (800) 551-97-84</a></h4>
             </div>
             <div id="hostel-paveleckaya" class="row flex-md-row flex-column justify-content-center align-items-center">
                 <div class="img-wrapper col-12 col-md-2">
@@ -508,9 +508,9 @@ if(isset($_GET['cm_title'])){
                         <h3 class="hostel-label">ХОСТЕЛ FUSION НА ПАВЕЛЕЦКОЙ ОТ <span class="red">600</span> <span class="rub">₽</span></h3>
                     </div>
                     <div class="col p-0 d-flex flex-column flex-lg-row align-items-center justify-content-between justify-content-md-start align-items-md-start">
-                        <div class="col-12 col-lg-5 grp" onclick="location.href='tel:+79037903911'">
+                        <div class="col-12 col-lg-5 grp" onclick="location.href='tel:88005519784'">
                             <img src="./images/phone.png" alt="phone">
-                            <span>+7 (903) 790-39-11</span>
+                            <span>8 (800) 551-97-84</span>
                         </div>
                         <div class="col-12 col-lg-5 grp">
                             <img src="./images/metro-gray.png" alt="metro">
@@ -653,7 +653,7 @@ if(isset($_GET['cm_title'])){
                         </div>
                     </div>
                 </div>
-                <h4 class="red text-center">В выходные и праздники цены могут отличаться, актуальные цены уточняйте у администратора по телефону <a class="phone-to" href="tel:+79037903911">+7 (903) 790-39-11</a></h4>
+                <h4 class="red text-center">В выходные и праздники цены могут отличаться, актуальные цены уточняйте у администратора по телефону <a class="phone-to" href="tel:88005519784">8 (800) 551-97-84</a></h4>
             </div>
             <div class="row flex-md-row flex-column justify-content-center align-items-center">
                 <div class="img-wrapper col-12 col-md-2">
@@ -667,9 +667,9 @@ if(isset($_GET['cm_title'])){
                         <h3 class="hostel-label">АПАРТАМЕНТЫ НА КОЛОМЕНСКОЙ: <span class="red">2800</span> <span class="rub">₽</span></h3>
                     </div>
                     <div class="col p-0 d-flex flex-column flex-lg-row align-items-center justify-content-between justify-content-md-start align-items-md-start">
-                        <div class="col-12 col-lg-5 grp" onclick="location.href='tel:+79037903911'">
+                        <div class="col-12 col-lg-5 grp" onclick="location.href='tel:88005519784'">
                             <img src="./images/phone.png" alt="phone">
-                            <span>+7 (903) 790-39-11</span>
+                            <span>8 (800) 551-97-84</span>
                         </div>
                         <div class="col-12 col-lg-5 grp">
                             <img src="./images/metro-gray.png" alt="metro">
@@ -708,7 +708,7 @@ if(isset($_GET['cm_title'])){
                         </div>
                     </div>
                 </div>
-                <h4 class="red text-center">В выходные и праздники цены могут отличаться, актуальные цены уточняйте у администратора по телефону <a class="phone-to" href="tel:+79037903911">+7 (903) 790-39-11</a></h4>
+                <h4 class="red text-center">В выходные и праздники цены могут отличаться, актуальные цены уточняйте у администратора по телефону <a class="phone-to" href="tel:88005519784">8 (800) 551-97-84</a></h4>
             </div>
         </div>
     </div>
@@ -800,7 +800,7 @@ if(isset($_GET['cm_title'])){
                     <div class="textwidget">
                         <p>
                             <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
-                            <a href="tel:+79037903911">+7 (903) 790-39-11</a>
+                            <a href="tel:88005519784">8 (800) 551-97-84</a>
                         </p>
                         <a href="mailTo:hostelfusion@mail.ru">
                             <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>
@@ -873,7 +873,7 @@ if(isset($_GET['cm_title'])){
                     <div class="form-group col-12">
                         <p class="text-center">
                             Или забронируйте по номеру:<br>
-                            <strong><a href="tel:+79037903911"> +7 (903) 790-39-11</a></strong>
+                            <strong><a href="tel:88005519784"> 8 (800) 551-97-84</a></strong>
                         </p>
                     </div>
                 </div>
