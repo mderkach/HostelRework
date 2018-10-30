@@ -132,10 +132,6 @@ if(isset($_GET['cm_title'])){
                         </ul>
                     </div>
                     <div class="socials-header col-3 d-flex justify-content-around align-items-center">
-                        <!--
-                        <a href="viber://chat?number=+79092332590"><img src="./images/socials-neon/viber.png" alt="" class="socials-neon"></a>
-                        <a href="https://api.whatsapp.com/send?phone=+79629809926"><img src="./images/socials-neon/whatsapp.png" alt="" class="socials-neon"></a>
--->
                         <a href="https://vk.com/hostelfusion" target="_blank"><img src="./images/socials-neon/vk.png" alt="" class="socials-neon"></a>
                         <a href="https://www.instagram.com/hostelfusion/" target="_blank"><img src="./images/socials-neon/instagram.png" alt="" class="socials-neon"></a>
                         <a href="https://facebook.com/fusionhostel/" target="_blank"><img src="./images/socials-neon/facebook.png" alt="" class="socials-neon"></a>
@@ -172,10 +168,6 @@ if(isset($_GET['cm_title'])){
                             <a class="nav-item nav-link" href="./buy.php">Оплата</a>
                             <a class="nav-link" href="./contact.php">Контакты</a>
                             <div class="socials-header p-0 col-sm-5 col-8 d-flex justify-content-between align-items-center">
-                                <!--
-                        <a href="viber://chat?number=+79092332590"><img src="./images/socials-neon/viber.png" alt="" class="socials-neon"></a>
-                        <a href="https://api.whatsapp.com/send?phone=+79629809926"><img src="./images/socials-neon/whatsapp.png" alt="" class="socials-neon"></a>
--->
                                 <a href="https://vk.com/hostelfusion" target="_blank"><img src="./images/socials-neon/vk.png" alt="" class="socials-neon"></a>
                                 <a href="https://www.instagram.com/hostelfusion/" target="_blank"><img src="./images/socials-neon/instagram.png" alt="" class="socials-neon"></a>
                                 <a href="https://facebook.com/fusionhostel/" target="_blank"><img src="./images/socials-neon/facebook.png" alt="" class="socials-neon"></a>
@@ -203,11 +195,11 @@ if(isset($_GET['cm_title'])){
         <div class="container">
             <div class="column">
                 <h2 class="text-center after">КАК ДОБРАТЬСЯ ДО FUSION HOSTEL</h2>
-                <p class="hf-info">Телефоны: <span onclick="location.href='tel:+74991166406'">+7 (499) 116-64-06</span></p>
+                <p class="hf-info">Телефоны: <span onclick="location.href='tel:88005519784'">8 (800) 551-97-84</span></p>
                 <p class="hf-info">Электронная почта: <span class="mail" href="mailto:hostelfusion@mail.ru">hostelfusion@mail.ru</span></p>
                 <div class="hostel-maps-wrapper">
                     <div class="col p-0 d-flex flex-row flex-wrap align-items-baseline">
-                        <h3 class="hostel-label">ХОСТЕЛ НА ПАВЕЛЕЦКОЙ</h3> <span class="col-md-3 col-12" onclick="location.href='tel:+749911666296'">+7(499)-116-62-96</span>
+                        <h3 class="hostel-label">ХОСТЕЛ НА ПАВЕЛЕЦКОЙ</h3> <span class="col-md-3 col-12" onclick="location.href='tel:88005519784'">8 (800) 551-97-84</span>
                     </div>
                     <p class="hostel-adress__contact">
                         <img class="adress-img" src="./images/adress-header.png"> г. Москва, Дубининская улица, д. 67, корп. 1
@@ -247,24 +239,19 @@ if(isset($_GET['cm_title'])){
                     </div>
                     <div class="card-wrapper tab-content" id="myTabContent">
                         <div class="tab-pane fade active show" role="tabpanel" id="first" aria-labelledby="first-tab">
-                            <!--<iframe src="https://yandex.by/map-widget/v1/-/CBauaIhT~A" height="400" frameborder="0" style="width:100%"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-paveleckaya" height="400" width="100%"></div>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="second" aria-labelledby="second-tab">
-                            <!-- <iframe src="https://yandex.by/map-widget/v1/-/CBau4FUQSD" height="400" frameborder="0" style="width:100%"></iframe>
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad59ee0b0851faf8a4983fd746fcc724a5d74c6a5c379a1e63c47720e3dd64426&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-serpukhovskaya" height="400" width="100%"></div>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="third" aria-labelledby="third-tab">
-                            <!--<iframe src="https://yandex.by/map-widget/v1/-/CBauaMWmgC" height="400" frameborder="0" style="width:100%"></iframe>
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A34cde6b81c40cd2c40ed04d68f14032b85dca83b58d7bd05da4b926f1bc6c22f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-tulskaya" height="400" width="100%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="hostel-maps-wrapper">
                     <div class="col p-0 d-flex flex-row flex-wrap align-items-baseline">
-                        <h3 class="hostel-label">Хостел на Проспекте мира</h3> <span class="col-md-3 col-12">+7(499)-116-62-96</span>
+                        <h3 class="hostel-label">Хостел на Проспекте мира</h3> <span class="col-md-3 col-12">8 (800) 551-97-84</span>
                     </div>
                     <p class="hostel-adress__contact">
                         <img class="adress-img" src="./images/adress-header.png"> г. Москва, Банный проезд, д. 3 стр. 1
@@ -296,24 +283,19 @@ if(isset($_GET['cm_title'])){
                     </div>
                     <div class="card-wrapper tab-content" id="myTabContent">
                         <div class="tab-pane fade active show" role="tabpanel" id="fourth" aria-labelledby="fourth-tab">
-                            <!--<iframe src="https://yandex.by/map-widget/v1/-/CBauaBXohD" height="400" frameborder="0" style="width:100%"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-mira" height="400" width="100%"></div>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="fifth" aria-labelledby="fifth-tab">
-                            <!--                            <iframe src="https://yandex.by/map-widget/v1/-/CBauaJE92C" height="400" frameborder="0" style="width:100%"></iframe>--
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0b6ed1edc02e4409473f110d033842418605202059befdd1f7507fec514c1d62&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-rizhskaya" height="400" width="100%"></div>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="sixth" aria-labelledby="sixth-tab">
-                            <!--                            <iframe src="https://yandex.by/map-widget/v1/-/CBauaJg7gA" height="400" frameborder="0" style="width:100%"></iframe>
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abe5a11f6e8ed4b3ab1adf26fa6f5ae1f0f152c9fe4e1ee9e925c024ab62c24a4&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-dostoevskaya" height="400" width="100%"></div>
                         </div>
                     </div>
                 </div>
                 <div class="hostel-maps-wrapper">
                     <div class="col p-0 d-flex flex-row flex-wrap align-items-baseline">
-                        <h3 class="hostel-label">Апартаменты на Коломенской</h3> <span class="col-md-3 col-12" onclick="location.href='tel:+749911666296'">+7(499)-116-62-96</span>
+                        <h3 class="hostel-label">Апартаменты на Коломенской</h3> <span class="col-md-3 col-12" onclick="location.href='tel:88005519784'">8 (800) 551-97-84</span>
                     </div>
                     <p class="hostel-adress__contact">
                         <img class="adress-img" src="./images/adress-header.png"> г. Москва, Проспект Андропова, д. 44, корп. 2
@@ -338,13 +320,12 @@ if(isset($_GET['cm_title'])){
                     </div>
                     <div class="card-wrapper tab-content" id="myTabContent">
                         <div class="tab-pane fade active show" role="tabpanel" id="fourth" aria-labelledby="fourth-tab">
-                            <!--<iframe src="https://yandex.by/map-widget/v1/-/CBauaNcWDC" height="400" frameborder="0" style="width:100%"></iframe>-->
                             <div class="map-wrapper position-relative" id="map-kolomenskaya" height="400" width="100%"></div>
                         </div>
                     </div>
                 </div>
                 <p class="hf-info">Реквизиты: ООО «Центр» ИНН 7725387510/ ОГРНИП 1177746823649</p>
-                <p class="hf-info">Юридический адрес:115280, г. Москва, ул. Восточная, дом 2 корпус 5/51 Тел.: +7-499-116-59-08 </p>
+                <p class="hf-info">Юридический адрес:115280, г. Москва, ул. Восточная, дом 2 корпус 5/51 Тел.: 8 (800) 551-97-84</p>
             </div>
         </div>
     </div>
@@ -365,27 +346,10 @@ if(isset($_GET['cm_title'])){
                     </div>
                 </div>
                 <div class="col-12 col-md-5">
-                    <!--
-                    <h4 class="footer-heading">Последние новости</h4>
-                    <div class="textwidget">
-                        <p>
-                            <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
-                            <a href="tel:+74991166878">+7 (499) 116-68-78</a>
-                        </p>
-                        <p>
-                            <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>
-                            <span style="cursor: pointer">Написать сообщение</span>
-                        </p>
-                    </div>
--->
                 </div>
                 <div class="col-12 col-md-4">
                     <h4 class="footer-heading">Мы в соцсетях</h4>
                     <div class="socials-footer">
-                        <!--
-                        <a href="viber://chat?number=+79092332590"><img src="./images/socials-neon/viber.png" alt="" class="socials-neon"></a>
-                        <a href="https://api.whatsapp.com/send?phone=+79629809926"><img src="./images/socials-neon/whatsapp.png" alt="" class="socials-neon"></a>
--->
                         <a href="https://vk.com/hostelfusion" target="_blank"><img src="./images/socials-neon/vk.png" alt="" class="socials-neon"></a>
                         <a href="https://www.instagram.com/hostelfusion/" target="_blank"><img src="./images/socials-neon/instagram.png" alt="" class="socials-neon"></a>
                         <a href="https://facebook.com/fusionhostel/" target="_blank"><img src="./images/socials-neon/facebook.png" alt="" class="socials-neon"></a>

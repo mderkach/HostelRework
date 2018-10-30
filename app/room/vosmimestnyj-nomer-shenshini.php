@@ -132,10 +132,6 @@ if(isset($_GET['cm_title'])){
                         </ul>
                     </div>
                     <div class="socials-header col-3 d-flex justify-content-around align-items-center">
-                        <!--
-                        <a href="viber://chat?number=+79092332590"><img src="../images/socials-neon/viber.png" alt="" class="socials-neon"></a>
-                        <a href="https://api.whatsapp.com/send?phone=+79629809926"><img src="../images/socials-neon/whatsapp.png" alt="" class="socials-neon"></a>
--->
                         <a href="https://vk.com/hostelfusion" target="_blank"><img src="../images/socials-neon/vk.png" alt="" class="socials-neon"></a>
                         <a href="https://www.instagram.com/hostelfusion/" target="_blank"><img src="../images/socials-neon/instagram.png" alt="" class="socials-neon"></a>
                         <a href="https://facebook.com/fusionhostel/" target="_blank"><img src="../images/socials-neon/facebook.png" alt="" class="socials-neon"></a>
@@ -172,10 +168,6 @@ if(isset($_GET['cm_title'])){
                             <a class="nav-item nav-link" href="../buy.php">Оплата</a>
                             <a class="nav-link" href="../contact.php">Контакты</a>
                             <div class="socials-header p-0 col-sm-5 col-8 d-flex justify-content-between align-items-center">
-                                <!--
-                        <a href="viber://chat?number=+79092332590"><img src="../images/socials-neon/viber.png" alt="" class="socials-neon"></a>
-                        <a href="https://api.whatsapp.com/send?phone=+79629809926"><img src="../images/socials-neon/whatsapp.png" alt="" class="socials-neon"></a>
--->
                                 <a href="https://vk.com/hostelfusion" target="_blank"><img src="../images/socials-neon/vk.png" alt="" class="socials-neon"></a>
                                 <a href="https://www.instagram.com/hostelfusion/" target="_blank"><img src="../images/socials-neon/instagram.png" alt="" class="socials-neon"></a>
                                 <a href="https://facebook.com/fusionhostel/" target="_blank"><img src="../images/socials-neon/facebook.png" alt="" class="socials-neon"></a>
@@ -389,7 +381,7 @@ if(isset($_GET['cm_title'])){
                                 <p>115054, г. Москва, ул. Дубиниская, дом 67 корпус 1.<br> 129110, г. Москва, Банный проезд, дом 3 стр. 1.</p>
                                 <p>Электронная почта: hostelfusion@mail.ru<br> Телефоны: 8-499-116-68-78</p>
                                 <p>Реквизиты: ООО «Центр» ИНН 7725387510/ ОГРНИП 1177746823649</p>
-                                <p>Юридический адрес:115280, г. Москва, ул. Восточная, дом 2 корпус 5/51 Тел.: +7-499-116-68-78</p>
+                                <p>Юридический адрес:115280, г. Москва, ул. Восточная, дом 2 корпус 5/51 Тел.: 8 (800) 551-97-84</p>
                             </div>
                         </div>
                     </div>
@@ -414,28 +406,10 @@ if(isset($_GET['cm_title'])){
                     </div>
                 </div>
                 <div class="col-12 col-md-5">
-                    <!--
-                    <h4 class="footer-heading">Последние новости</h4>
-                    <div class="textwidget">
-                        <p>
-                            <i class="fa fa-phone" style="color: #333; font-size: 16px; "></i>
-                            <a href="tel:88005519784">+7 (499) 116-68-78</a>
-                        </p>
-                        <p>
-                            <i class="fa fa-envelope-o" style="color: #333; font-size: 16px; "></i>
-                            <span style="cursor: pointer">Написать сообщение</span>
-                        </p>
-                    </div>
--->
                 </div>
                 <div class="col-12 col-md-4">
                     <h4 class="footer-heading">Мы в соцсетях</h4>
-                    <div class="socials-footer">
-                       <!--
-                        <a href="viber://chat?number=+79092332590"><img src="../images/socials-neon/viber.png" alt="" class="socials-neon"></a>
-                        <a href="https://api.whatsapp.com/send?phone=+79629809926"><img src="../images/socials-neon/whatsapp.png" alt="" class="socials-neon"></a>
--->
-                        <a href="https://vk.com/hostelfusion" target="_blank"><img src="../images/socials-neon/vk.png" alt="" class="socials-neon"></a>
+                    <div class="socials-footer">"https://vk.com/hostelfusion" target="_blank"><img src="../images/socials-neon/vk.png" alt="" class="socials-neon"></a>
                         <a href="https://www.instagram.com/hostelfusion/" target="_blank"><img src="../images/socials-neon/instagram.png" alt="" class="socials-neon"></a>
                         <a href="https://facebook.com/fusionhostel/" target="_blank"><img src="../images/socials-neon/facebook.png" alt="" class="socials-neon"></a>
                     </div>
